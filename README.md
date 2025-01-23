@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+## React Dynamic Table with Dropdowns
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that demonstrates a dynamic, interactive table with single and multi-select dropdowns, row addition, and customizable options. It highlights key React concepts like state management, reusable components, and dynamic rendering, combined with a clean and responsive UI.
 
-## Available Scripts
+## Features
+## Dynamic Rows:
 
-In the project directory, you can run:
+Add new rows to the table using the "Add New Row" button at the bottom-right of the page.
 
-### `npm start`
+## Single-Select Dropdown (Label 1):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dropdown options are dynamically filtered to prevent duplicate selections across rows.
+Selected options display as chips with a close ("X") button for easy removal.
+Removed options reappear in the dropdown list, making them reusable.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Multi-Select Dropdown (Label 2):
 
-### `npm test`
+Users can select multiple options that display as individual chips with close ("X") buttons for removal.
+Includes a "Add New Option" feature to add custom items to the dropdown, which are immediately displayed as selected.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Responsive UI:
 
-### `npm run build`
+Table and components adjust seamlessly for smaller screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Interactive and User-Friendly:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hover effects, focus highlights, and consistent visual feedback for actions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
 
-### `npm run eject`
+## Frontend Framework: 
+React
+Styling: CSS (Custom styles and responsive design)
+Package Manager: npm or yarn (for managing dependencies)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Use
+## Add Rows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click on the "Add New Row" button to add a blank row to the table.
+## Label 1 (Single-Select):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Choose an option from the dropdown. Selected options appear as chips.
+To remove, click the "X" button on the chip. The option will return to the dropdown for reuse.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Label 2 (Multi-Select):
 
-## Learn More
+Select multiple options from the dropdown. Selected items appear as chips.
+Add a custom option using the "Add New Option" field at the bottom of the dropdown. The new option is automatically added to the list of selected items.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Enhancements
+Validation: Add input validations for dropdown selections.
+Persistent State: Integrate a backend or local storage to persist data across sessions.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://dynamic-table-murex.vercel.app/](https://dynamic-table-murex.vercel.app/)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
